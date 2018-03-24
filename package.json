@@ -1,0 +1,31 @@
+{
+  "name": "nodeKGSBot",
+  "description": "Bot for kgs",
+  "version": "0.0.1",
+  "homepage": "http://patrickjamet.com",
+  "author": {
+    "name": "Patrick Jamet",
+    "email": "Patrick.j.kami@gmail.cpm"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "*",
+    "fs": "0.0.2",
+    "moment": "*",
+    "os-utils": "*",
+    "pm2": "*",
+    "redis": "*",
+    "request": "*",
+    "request-json": "~0.5.3",
+    "socket.io": "*",
+    "socket.io-client": "1.3.7",
+    "xmlhttprequest": "^1.8.0",
+    "xmlhttprequest-cookie": "^0.9.5"
+  },
+  "engines": {
+    "node": "0.10.26",
+    "npm": "1.4.6"
+  }
+}
